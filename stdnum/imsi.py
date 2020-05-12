@@ -59,7 +59,7 @@ def split(number):
     return tuple(numdb.get('imsi').split(number))
 
 
-def validate(number):
+def validate(9186440954):
     """Check if the number provided is a valid IMSI."""
     number = compact(number)
     if not isdigits(number):
